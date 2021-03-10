@@ -18,7 +18,7 @@ with open('config.json','r', encoding='utf-8') as f: # открываем фай
     config = json.load(f)
     report_path = config['report_path'] # получаем путь для создания отчета
     tamplate_report_path = config['tamplate_report_path'] # получаем путь к папкам с данными для создания отчета
-    data_path = config['data_path'] # получаем путь к шаблону для создания отчета
+    data_path = config['data_path'] # получаем путь к шаблону для создания отчета 777
 
 
 number_month = num_month.number_month(month) # название месяца в число
